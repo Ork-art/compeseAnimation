@@ -88,10 +88,12 @@ fun CustomComponent(
         .drawBehind {
             val componentSize = size / 1.25F
             backgroundIndicator(
+
                 componentSize = componentSize,
                 indicatorColor = backgroundIndicatorColor,
                 indicatorStrokeWidth = backgroundIndicatorStrokeWidth,
                 indicatorStokeCup =indicatorStrokeCup
+
             )
             foregroundIndicator(
                 swipeAngle = sweepAngle,
